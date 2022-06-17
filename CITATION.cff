@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: >-
+  Performance Evaluation of Open-Source Serverless
+  Platforms for Kubernetes
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Jonathan
+    family-names: Decker
+    email: jonathan.decker@uni-goettingen.de
+    affiliation: Georg-August-Universität Göttingen
+    orcid: 'https://orcid.org/0000-0002-7384-7304'
+abstract: >-
+  This repository contains the source code for a
+  performance evaluation of Open-Source Serverless
+  Platforms.
+
+  To be precise the platforms OpenFaaS
+  (https://www.openfaas.com/) and Nuclio
+  (https://nuclio.io/) were studied and evaluated.
+
+  Here included is the source code for two sample
+  workloads that mimic real world use-cases.
+
+  Furthermore, it holds code for systematically
+  running and benchmarking these workloads.
+keywords:
+  - Kubernetes
+  - Serverless
+  - Benchmark
+license: MIT
+version: 0.1.0
+date-released: '2022-06-17'

@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: YOUR URL HERE
+functions:
+  magick-example-no-processing:
+    lang: dockerfile
+    handler: ./magick-example-no-processing
+    image: YOUR REGISTRY HERE/magick-example-no-processing:latest
+

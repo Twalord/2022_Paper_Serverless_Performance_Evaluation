@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: YOUR URL HERE
+functions:
+  magick-example-dummy:
+    lang: dockerfile
+    handler: ./magick-example-dummy
+    image: YOUR REGISTRY HERE/magick-example-dummy:latest
+
